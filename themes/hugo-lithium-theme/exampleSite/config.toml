@@ -1,34 +1,23 @@
-baseurl = "qiangua.github.io"
-
-[languages.en]
-  languageCode = "en-us"
-[languages.zh]
-  languageCode = "zh-cn"
-# Default language to use (if you setup multilingual support)
-defaultContentLanguage = "zh"
-defaultContentLanguageInSubdir = true
-
-title = "QIanGua"
+baseurl = "/"
+languageCode = "en-us"
+title = "A Hugo website"
 theme = "hugo-lithium-theme"
 googleAnalytics = ""
 disqusShortname = ""
-#ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-
-#hasCJKLanguage: true
-
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "關於"
+    name = "About"
     url = "/about/"
 [[menu.main]]
-    name = "瞬間"
-    url = "/fragment/"
+    name = "GitHub"
+    url = "https://github.com/rstudio/blogdown"
 [[menu.main]]
-    name = "Instagram"
-    url = "https://www.instagram.com/mlyqdd/"
+    name = "Twitter"
+    url = "https://twitter.com/rstudio"
 
 [params]
     description = "A website built through Hugo and blogdown."
