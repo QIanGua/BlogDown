@@ -1,4 +1,4 @@
-baseurl = "qiangua.github.io"
+baseurl = "qiangua.github.io/blogdown"
 
 [languages.en]
   languageCode = "en-us"
